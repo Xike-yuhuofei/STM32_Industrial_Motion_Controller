@@ -6,6 +6,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is an STM32F407IGT6-based industrial stepper motor control system with comprehensive motion control capabilities. The project provides multiple operation modes from basic stepper control to advanced industrial motion control with G-code parsing, interpolation algorithms, and fault diagnosis.
 
+### Key Features
+- **[Multi-axis synchronous control](docs/technical/TECHNICAL_ARCHITECTURE.md#同步控制算法)** with real-time coordination
+- **[Advanced interpolation algorithms](firmware/src/app/motion/advanced_interpolation.h)** (Linear, Circular, Helical, NURBS)
+- **[G-code parsing and execution](firmware/src/app/gcode/)** for CNC-like operations
+- **[Fault diagnosis system](firmware/src/app/diagnostics/fault_diagnosis.h)** with predictive maintenance
+- **[Industrial communication protocols](firmware/src/app/communication/industrial_communication.h)** (EtherCAT, Modbus, CAN)
+- **Real-time performance** with [1ms interpolation cycle](firmware/src/core/industrial_motion_controller.h)
+
 ## Build Commands
 
 ### Primary Build System
@@ -237,3 +245,4 @@ Key documentation files in repository:
 - Legacy/backup files are stored in `backup/legacy_main_files/`
 - Build outputs go to `build/` directory
 - Use `make clean` to clear build artifacts before switching modes
+

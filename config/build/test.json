@@ -1,0 +1,20 @@
+{
+    "name": "test",
+    "description": "Test build configuration with debugging symbols",
+    "compiler_flags": [
+        "-Og",
+        "-g3",
+        "-DDEBUG",
+        "-DTEST_MODE",
+        "-Wall",
+        "-Wextra"
+    ],
+    "defines": [
+        "DEBUG",
+        "TEST_MODE",
+        "ENABLE_UNIT_TESTS"
+    ],
+    "optimization": "debug",
+    "enable_coverage": true,
+    "enable_sanitizers": true
+}
