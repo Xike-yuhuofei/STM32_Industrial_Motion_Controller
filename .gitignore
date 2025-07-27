@@ -1,0 +1,72 @@
+# Build outputs
+build/
+build */
+build_*/
+*build*/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# IDE files
+.vscode/
+.settings/
+.cproject
+.project
+*.launch
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Documentation
+docs/_build/
+docs/html/
+docs/latex/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Logs
+*.log
+log/
+
+# Archives
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Hardware design files (temporary)
+*.brd.bak
+*.sch.bak
+
+# Configuration
+config/local/
+.local/
+
+# Testing
+test_results/
+coverage/
+
+# Tools
+tools/downloads/
+tools/cache/
