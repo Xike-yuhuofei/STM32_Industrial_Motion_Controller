@@ -2,7 +2,8 @@
 build/
 build */
 build_*/
-*build*/
+**/build/
+!config/build/
 *.o
 *.d
 *.elf
