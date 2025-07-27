@@ -134,5 +134,5 @@ python3 tools/scripts/build.py -m test
 
 ---
 
-**联系方式**: [your-email@example.com](mailto:your-email@example.com)
+**联系方式**: [your-email@example.com](mailto:your-email@example.com)  
 **项目主页**: [https://github.com/your-org/STM32_Industrial_Motion_Controller](https://github.com/your-org/STM32_Industrial_Motion_Controller)
